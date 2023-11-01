@@ -3,5 +3,16 @@
 # python_project_template
 Personal python project template
 
-# cheatsheet
+## cheat sheet
+
+create venv
+```bash
+python3 -m venv .venv
+```
+
+activate venv
+```bash
+source .venv/bin/activate
+```
+
 
