@@ -11,13 +11,7 @@ format:
 lint:
 	pylint --disable=R,C *.py utils/*.py
 
-container-lint:
-	docker run -rm -i hadolint/hadolint < Dockerfile
+run:
+	streamlit run 1_Homepage.py
 
-refactor:
-	format lint
-
-deploy:
-#echo "deploy not implemented"
-
-all: install lint test format deploy
+all: install lint test format
