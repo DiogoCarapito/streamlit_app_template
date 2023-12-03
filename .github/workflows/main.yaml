@@ -1,4 +1,4 @@
-name: Github Actions Workflow
+name: CD/CI
 
 on: [push]
 

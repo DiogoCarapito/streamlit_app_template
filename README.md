@@ -16,16 +16,19 @@ source .venv/bin/activate
 ```
 
 ### Dockerfile
-build
+
+#### build
 ```bash
-docker build -t app:latest .
+docker build -t Home:latest .
 ````
-check image id
+
+#### check image id
 ```bash
 docker images
 ````
-run with image id
+
+#### run with image id
 ```bash
-docker run -p 8501:8501 app:latest
+docker run -p 8501:8501 Home:latest
 ````
 
