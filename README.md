@@ -10,6 +10,13 @@ Streamlit version: 1.38.0
 
 ## cheat sheet
 
+### setup
+
+```bash
+mv streamlit_app_template/.* .
+rm -r streamlit_app_template/
+```
+
 ### venv
 
 create venv
