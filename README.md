@@ -4,16 +4,16 @@
 
 Streamlit python project template
 
-Python version: 3.12
+Python version: 3.12.5
 
-Streamlit version: 1.38.0
+Streamlit version: 1.40.0
 
 ## cheat sheet
 
 ### setup
 
 ```bash
-mv streamlit_app_template/.* .
+mv streamlit_app_template/* streamlit_app_template/.* .
 rm -r streamlit_app_template/
 ```
 
