@@ -12,6 +12,10 @@ Streamlit version: 1.40.0
 
 ### setup
 
+copy all files (folders, hidden and non-hidden files) to the higher directory
+usefull if you clone the repo into your desired directory
+ignore if clone and after change the name of the directory
+
 ```bash
 mv streamlit_app_template/* streamlit_app_template/.* .
 rm -r streamlit_app_template/
