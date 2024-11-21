@@ -19,15 +19,10 @@ rm -r streamlit_app_template/
 
 ### venv
 
-create venv
+create and activate .venv
 
 ```bash
 python3.12 -m venv .venv
-```
-
-activate venv
-
-```bash
 source .venv/bin/activate
 ```
 
