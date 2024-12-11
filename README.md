@@ -17,8 +17,7 @@ usefull if you clone the repo into your desired directory
 ignore if clone and after change the name of the directory
 
 ```bash
-mv streamlit_app_template/* streamlit_app_template/.* .
-rm -r streamlit_app_template/
+mv streamlit_app_template/{*,.*} . && rm -r streamlit_app_template/
 ```
 
 ### venv
