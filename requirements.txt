@@ -7,3 +7,4 @@ black==23.9.1
 #ipython==8.13.0
 
 streamlit>=1.38.0
+watchdog==6.0.0
