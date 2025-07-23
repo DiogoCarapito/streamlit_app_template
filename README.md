@@ -4,23 +4,28 @@
 
 Streamlit python project template
 
-Python version: 3.12
+Python version: 3.12.5
 
-Streamlit version: 1.38.0
+Streamlit version: 1.40.0
 
 ## cheat sheet
 
+### setup
+
+copy all files (folders, hidden and non-hidden files) to the higher directory
+usefull if you clone the repo into your desired directory
+ignore if clone and after change the name of the directory
+
+```bash
+mv streamlit_app_template/{*,.*} . && rm -r streamlit_app_template/
+```
+
 ### venv
 
-create venv
+create and activate .venv
 
 ```bash
 python3.12 -m venv .venv
-```
-
-activate venv
-
-```bash
 source .venv/bin/activate
 ```
 
