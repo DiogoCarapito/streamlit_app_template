@@ -20,6 +20,16 @@ ignore if clone and after change the name of the directory
 mv streamlit_app_template/{*,.*} . && rm -r streamlit_app_template/
 ```
 
+### install python on linux
+
+```bash
+apt install python3.11-venv
+```
+
+### install python on windows
+
+placeholder
+
 ### venv
 
 create and activate .venv
