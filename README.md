@@ -6,7 +6,7 @@ Streamlit python project template
 
 Python version: 3.12.5
 
-Streamlit version: 1.40.0
+Streamlit version: 1.47.0
 
 ## cheat sheet
 
